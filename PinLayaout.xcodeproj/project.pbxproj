@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B33BB72298725E1007B260C /* Vista2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33BB71298725E1007B260C /* Vista2.swift */; };
+		2B4B098929870C6A006A9DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B098829870C6A006A9DB7 /* AppDelegate.swift */; };
+		2B4B098B29870C6A006A9DB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B098A29870C6A006A9DB7 /* SceneDelegate.swift */; };
+		2B4B098D29870C6A006A9DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B098C29870C6A006A9DB7 /* ViewController.swift */; };
+		2B4B099029870C6A006A9DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B098E29870C6A006A9DB7 /* Main.storyboard */; };
+		2B4B099229870C6C006A9DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B099129870C6C006A9DB7 /* Assets.xcassets */; };
+		2B4B099529870C6C006A9DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4B099329870C6C006A9DB7 /* LaunchScreen.storyboard */; };
+		C81A0E86F529FCE40D96CEB7 /* Pods_PinLayaout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6693458D6A38BA6DA2EDF9 /* Pods_PinLayaout.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C6693458D6A38BA6DA2EDF9 /* Pods_PinLayaout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinLayaout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B33BB71298725E1007B260C /* Vista2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista2.swift; sourceTree = "<group>"; };
+		2B4B098529870C6A006A9DB7 /* PinLayaout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinLayaout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4B098829870C6A006A9DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B4B098A29870C6A006A9DB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B4B098C29870C6A006A9DB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B4B098F29870C6A006A9DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4B099129870C6C006A9DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4B099429870C6C006A9DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B4B099629870C6C006A9DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981DE838B8E634DA1AAB9846 /* Pods-PinLayaout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayaout.release.xcconfig"; path = "Target Support Files/Pods-PinLayaout/Pods-PinLayaout.release.xcconfig"; sourceTree = "<group>"; };
+		E5D4A59B46A8CBE80E45388D /* Pods-PinLayaout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinLayaout.debug.xcconfig"; path = "Target Support Files/Pods-PinLayaout/Pods-PinLayaout.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4B098229870C6A006A9DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81A0E86F529FCE40D96CEB7 /* Pods_PinLayaout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4B097C29870C6A006A9DB7 = {
+			isa = PBXGroup;
+			children = (
+				2B4B098729870C6A006A9DB7 /* PinLayaout */,
+				2B4B098629870C6A006A9DB7 /* Products */,
+				F3E7E3B7DA701511C6BB12D6 /* Pods */,
+				898BBC74414D2287ECA7ED4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4B098629870C6A006A9DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B098529870C6A006A9DB7 /* PinLayaout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4B098729870C6A006A9DB7 /* PinLayaout */ = {
+			isa = PBXGroup;
+			children = (
+				2B4B098829870C6A006A9DB7 /* AppDelegate.swift */,
+				2B4B098A29870C6A006A9DB7 /* SceneDelegate.swift */,
+				2B4B098C29870C6A006A9DB7 /* ViewController.swift */,
+				2B33BB71298725E1007B260C /* Vista2.swift */,
+				2B4B098E29870C6A006A9DB7 /* Main.storyboard */,
+				2B4B099129870C6C006A9DB7 /* Assets.xcassets */,
+				2B4B099329870C6C006A9DB7 /* LaunchScreen.storyboard */,
+				2B4B099629870C6C006A9DB7 /* Info.plist */,
+			);
+			path = PinLayaout;
+			sourceTree = "<group>";
+		};
+		898BBC74414D2287ECA7ED4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C6693458D6A38BA6DA2EDF9 /* Pods_PinLayaout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E7E3B7DA701511C6BB12D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D4A59B46A8CBE80E45388D /* Pods-PinLayaout.debug.xcconfig */,
+				981DE838B8E634DA1AAB9846 /* Pods-PinLayaout.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4B098429870C6A006A9DB7 /* PinLayaout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4B099929870C6C006A9DB7 /* Build configuration list for PBXNativeTarget "PinLayaout" */;
+			buildPhases = (
+				091AD162AF761A286EE512C6 /* [CP] Check Pods Manifest.lock */,
+				2B4B098129870C6A006A9DB7 /* Sources */,
+				2B4B098229870C6A006A9DB7 /* Frameworks */,
+				2B4B098329870C6A006A9DB7 /* Resources */,
+				D3478EB0D0E1B2D2B1FFA6D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinLayaout;
+			productName = PinLayaout;
+			productReference = 2B4B098529870C6A006A9DB7 /* PinLayaout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4B097D29870C6A006A9DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2B4B098429870C6A006A9DB7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2B4B098029870C6A006A9DB7 /* Build configuration list for PBXProject "PinLayaout" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B4B097C29870C6A006A9DB7;
+			productRefGroup = 2B4B098629870C6A006A9DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4B098429870C6A006A9DB7 /* PinLayaout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4B098329870C6A006A9DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4B099529870C6C006A9DB7 /* LaunchScreen.storyboard in Resources */,
+				2B4B099229870C6C006A9DB7 /* Assets.xcassets in Resources */,
+				2B4B099029870C6A006A9DB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091AD162AF761A286EE512C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinLayaout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3478EB0D0E1B2D2B1FFA6D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinLayaout/Pods-PinLayaout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinLayaout/Pods-PinLayaout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinLayaout/Pods-PinLayaout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4B098129870C6A006A9DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B33BB72298725E1007B260C /* Vista2.swift in Sources */,
+				2B4B098D29870C6A006A9DB7 /* ViewController.swift in Sources */,
+				2B4B098929870C6A006A9DB7 /* AppDelegate.swift in Sources */,
+				2B4B098B29870C6A006A9DB7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B4B098E29870C6A006A9DB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4B098F29870C6A006A9DB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B4B099329870C6C006A9DB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4B099429870C6C006A9DB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B4B099729870C6C006A9DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B4B099829870C6C006A9DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4B099A29870C6C006A9DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D4A59B46A8CBE80E45388D /* Pods-PinLayaout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTJG6N43MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinLayaout/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.reynaldohuerga.PinLayaout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B4B099B29870C6C006A9DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981DE838B8E634DA1AAB9846 /* Pods-PinLayaout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTJG6N43MX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinLayaout/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.reynaldohuerga.PinLayaout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4B098029870C6A006A9DB7 /* Build configuration list for PBXProject "PinLayaout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4B099729870C6C006A9DB7 /* Debug */,
+				2B4B099829870C6C006A9DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4B099929870C6C006A9DB7 /* Build configuration list for PBXNativeTarget "PinLayaout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4B099A29870C6C006A9DB7 /* Debug */,
+				2B4B099B29870C6C006A9DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4B097D29870C6A006A9DB7 /* Project object */;
+}

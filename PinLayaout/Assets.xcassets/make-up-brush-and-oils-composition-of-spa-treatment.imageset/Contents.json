@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "make-up-brush-and-oils-composition-of-spa-treatment.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "make-up-brush-and-oils-composition-of-spa-treatment@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "make-up-brush-and-oils-composition-of-spa-treatment@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

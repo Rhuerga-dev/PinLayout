@@ -1,0 +1,20 @@
+PODS:
+  - PinLayout (1.10.3)
+  - SwiftDate (5.1.0)
+
+DEPENDENCIES:
+  - PinLayout
+  - SwiftDate (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - PinLayout
+    - SwiftDate
+
+SPEC CHECKSUMS:
+  PinLayout: 0090ccbf29ae69af6ae5a15eaeaf27ed7b2c4d83
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
+
+PODFILE CHECKSUM: 6172ec7fbb1de39da70b3e9145b26f4a677165c6
+
+COCOAPODS: 1.11.3
